@@ -1,0 +1,9 @@
+#!/bin/perl
+
+use strict;
+use warnings;
+
+print "Content-type: text/html\n\n";
+print "<html><head><title>CGI Test</title></head><body>";
+print "<h1>Hello, World!</h1>";
+print "</body></html>";
