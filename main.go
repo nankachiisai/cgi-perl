@@ -45,6 +45,9 @@ func main() {
 		handler.ServeHTTP(w, r)
 	})
 
+	// 静的ファイルをホスティングするためのハンドラ
+	http.Handle("/", http.FileServer(http.Dir("./contents")))
+
 	port := ":8080"
 	log.Printf("Starting CGI Server on http://localhost%s", port)
 	if err := http.ListenAndServe(port, nil); err != nil {
