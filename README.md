@@ -14,8 +14,8 @@
   - `cgi-bin/counter/`: アクセスカウンター関連のCGIスクリプトと画像ファイルを配置するディレクトリ。
     - `cgi-bin/counter/counter.cgi`: アクセスカウンターのPerl CGIスクリプト。
     - `cgi-bin/counter/count.txt`: カウント数を記録するテキストファイル。
-  - `contents/`: 静的コンテンツを配置するディレクトリ。
-    - `contents/img/number_*.png`: カウンター表示用の数字画像。
+- `contents/`: 静的コンテンツを配置するディレクトリ。
+  - `contents/img/number_*.png`: カウンター表示用の数字画像。
 
 ## 実行方法
 
